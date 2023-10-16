@@ -65,15 +65,19 @@
       "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
       },
       {
+      "url": "https://github.com/stomita/heroku-buildpack-phantomjs"
+      },
+
+      {
         "url": "heroku/python"
       }
     ],
 
     "formation": {
-        "worker": {
+        "web": {
             "quantity": 1,
 
-            "size": "free"
+            "size": "standard-1x"
         }
     }
 }
